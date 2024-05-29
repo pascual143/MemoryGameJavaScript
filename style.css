@@ -1,0 +1,24 @@
+#tablero {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 10px;
+}
+
+.pieza {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  line-height: 100px;
+  backface-visibility: hidden;
+}
+
+.pieza.descubierta {
+  background-color: #f0f0f0;
+}
+
+.pieza.emparejada {
+  pointer-events: none;
+}
