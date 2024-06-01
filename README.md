@@ -2,7 +2,7 @@
   Game to practice with yor memory.
   
 # Features
-  - Guess the couple
+  - Guess the couple.
     
 # Technologies
   - HTML
